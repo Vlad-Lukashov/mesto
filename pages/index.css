@@ -1,0 +1,5 @@
+@import url(../vendor/normalize.css);
+/*подключаем шрифты*/
+@import url(../vendor/fonts/fonts.css);
+/*подключаем стили страницы*/
+@import url(../blocks/page/page.css);
