@@ -1,8 +1,7 @@
 .page {
-  /* ограничение по максимальной ширине из макета */
-  max-width: 1280px;
-  /* для экранов больше 1280px отцентрировали весь контент */
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
   /* Если шрифт из файла не загрузился, использовать Arial или Helvetica, на крайний случай — любой шрифт без засечек в системе пользователя */
   font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

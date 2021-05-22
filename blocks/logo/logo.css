@@ -1,0 +1,8 @@
+.logo {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}

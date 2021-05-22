@@ -1,0 +1,12 @@
+.logo__img {
+  width: 142px;
+  height: 33px;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .logo__img {
+    width: 104px;
+    height: 25px;
+  }
+}

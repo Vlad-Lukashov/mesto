@@ -1,0 +1,34 @@
+.popup_open {
+  display: flex;
+  animation: fadeSlideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeSlideIn {
+  0.1% {
+    display: flex;
+  }
+
+  100% {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeSlideOut {
+  0% {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  99% {
+    display: flex;
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    display: none;
+  }
+}

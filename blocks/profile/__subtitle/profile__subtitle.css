@@ -1,0 +1,8 @@
+.profile__subtitle {
+  margin: 16px 0 0;
+  max-width: 300px;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}

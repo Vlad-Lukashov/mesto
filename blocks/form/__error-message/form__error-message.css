@@ -1,0 +1,10 @@
+.form__error-message {
+  right: 0;
+  bottom: 2px;
+  position: absolute;
+  display: none;
+  color: tomato;
+  font-size: 12px;
+  text-align: center;
+  text-transform: lowercase;
+}

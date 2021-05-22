@@ -4,11 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Жак-Ив Кусто</title>
+  <title>Место</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 <body class="page">
-
+  <div class="place">
+    <header class="header">
+      <div class="case">
+        <a class="logo" href="#" target="_blank">
+          <img class="logo__img" src="./images/logo.svg" alt="Место">
+        </a>
+      </div>
+    </header>
+    <main class="content">
+      <div class="profile place">
+        <img class="profile__avatar" src="./images/image.jpg" alt="Жак-Ив Кусто">
+        <div class="profile__info">
+          <div class="profile__heading">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__edit" type="button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь океана</p>
+        </div>
+        <button class="profile__add" type="button"></button>
+      </div>
+      <section class="elements place">
+        <article class="element">
+          <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск">
+          <div class="element__tab">
+            <h2 class="element__title">Карачаевск</h2>
+            <button class="element__like element__like_bit"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус">
+          <div class="element__tab">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img class="element__img" src="./images/dombai.jpg" alt="Домбай">
+          <div class="element__tab">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус">
+          <div class="element__tab">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img class="element__img" src="./images/dombai.jpg" alt="Домбай">
+          <div class="element__tab">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск">
+          <div class="element__tab">
+            <h2 class="element__title">Карачаево-Ч...</h2>
+            <button class="element__like"></button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer place">
+      <p class="footer__author">&copy; 2020 Mesto Russia</p>
+    </footer>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form action="index.html" name="edit" class="form">
+        <div class="form__field">
+          <span class="form__error-message">обязательно к заполнению</span>
+          <input type="text" class="form__input form__input_type_name" name="name" id="name" placeholder="Имя Отчество"></input>
+        </div>
+        <div class="form__field">
+          <input type="text" class="form__input form__input_type_job" name="about" id="about" placeholder="Профессия"></input>
+        </div>
+        <span class="form__error-message">обязательно к заполнению</span>
+        <input type="submit" class="form__submit" value="Сохранить">
+      </form>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
