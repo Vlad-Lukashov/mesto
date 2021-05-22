@@ -28,5 +28,5 @@
 вести самому карточки посещенных мест, добавлять друзей, с которыми путешествовал,
 вести карту и отмечать места
 
-[Ссылка на gh-pages](https://vlad-lukashov.github.io/russian-travel/ "Место")
+[Ссылка на gh-pages](https://vlad-lukashov.github.io/mesto/ "Место")
 
